@@ -1,0 +1,118 @@
+html {
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	height: 120vh;
+    background: url("../img/background.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+	padding-top: 15px;
+	background-color: #395b40;
+}
+
+.student img {
+	width: 50px;
+	height: 50px;
+}
+
+.student p {
+    color: #80837b;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav {
+   margin-top: 25px;
+   text-align: center;
+}
+
+.nav ul.list-inline a {
+	display: inline-block;
+	font-size: 22px;
+	color: #cae4e1;
+	text-decoration: none;
+	    -moz-transition: all 0.1s 0.02s ease;
+		-o-transition: all 0.1s 0.02s ease;
+		-webkit-transition: all 0.1s 0.02s ease;
+	padding: 5px 10px;
+}
+
+ul.list-inline a:hover {
+	background-color: #cae4e1;
+	color: #395b40;
+}
+
+section#about {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#about h1, #subjects h1 {
+	color: #733d02;
+	font-weight: 700;
+	margin-top: 0px;
+	padding: 20px;
+}
+
+#about .parameters li {
+	list-style-type: none;
+	font-size: 25px;
+	font-weight: bold;
+	color: #733d02;
+}
+
+#about .data li {
+	color: #000;
+	list-style-type: none;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.data li a {
+	color: #000;
+}
+
+.data li a:hover {
+	text-decoration: none;
+	color: #395b40;
+}
+
+section#subjects {
+    padding: 20px 0px 20px 60px;
+}
+
+#subjects ol li {
+	font-size: 25px;
+	font-weight: bold;
+	color: #733d02;
+}
+
+#subjects ol li span {
+	color: #000;
+}
+
+footer {
+	background-color: #395b40;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #cae4e1;
+}
+
+footer .fa {
+	font-size: 48px;
+	color: #cae4e1;
+}
+
+footer .developer {
+	margin-left: -100px;
+}
+
+footer p {
+	margin: 0;
+	font-size: 25px;
+}
+

@@ -1,0 +1,131 @@
+html {
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	height: 120vh;
+    background: url("../img/background.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+	padding-top: 15px;
+	background-color: #395b40;
+}
+
+.account {
+	text-align: center;
+}
+
+.account img {
+	width: 50px;
+	height: 50px;
+}
+
+.account p {
+    color: #80837b;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nav {
+   margin-top: 25px;
+   text-align: center;
+}
+
+.nav ul.list-inline a {
+	display: inline-block;
+	font-size: 22px;
+	color: #cae4e1;
+	text-decoration: none;
+	    -moz-transition: all 0.1s 0.02s ease;
+		-o-transition: all 0.1s 0.02s ease;
+		-webkit-transition: all 0.1s 0.02s ease;
+	padding: 5px 10px;
+}
+
+ul.list-inline a:hover {
+	background-color: #cae4e1;
+	color: #395b40;
+}
+
+#students h2, .student_lists a{
+   color: #266307;
+   font-weight: 700;
+}
+ 
+#students span {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#students .ADNSU_logo img {
+	padding-top: 50%;
+}
+
+#search {
+	padding-bottom: 15px;
+}
+
+#search .google {
+    color: #137126;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#search a:hover {
+    text-decoration: none;
+    color: #266307;
+}
+
+#search img {
+	height: 25px;
+	width: 25px;
+	margin: 0px 10px 10px 20px;
+}
+
+#search .btn {
+	background-color: #395b40;
+	color: #cae4e1
+}
+
+footer {
+	background-color: #395b40;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #cae4e1;
+}
+
+footer .fa {
+	font-size: 48px;
+	color: #cae4e1;
+}
+
+footer .developer {
+	margin-left: -100px;
+}
+
+footer p {
+	margin: 0;
+	font-size: 25px;
+}
+
+button.fb {
+	margin-top: 10px;
+	background-color: #0f37cb;
+	padding: 5px;
+	border: 1px solid #0f37cb;
+	border-radius: 5px;
+}
+
+.fb a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.fb span {
+	padding-left: 7px;
+}
